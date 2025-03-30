@@ -1,7 +1,4 @@
 output "storage_account_id" {
-  value       = azurerm_storage_account.storageaccount.id
-  description = "The storage account id"
-
+  value       = azurerm_storage_account.securestorage.id
+  description = "The storage account name"
 }
-
-//https://github.com/naol2025/terraform-modules.git
