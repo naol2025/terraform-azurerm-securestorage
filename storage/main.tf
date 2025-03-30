@@ -25,5 +25,3 @@ module "securestorage" {
   environment          = "Production"
   storage_account_name = "fandsecurestorage377"
 }
-
-//terraform import azurerm_resource_group.rg /subscriptions/7e6a8b18-7491-450c-8987-6f9a864c0f05/resourceGroups/bicep-course
