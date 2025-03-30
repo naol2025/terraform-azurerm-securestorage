@@ -22,6 +22,6 @@ module "securestorage" {
   version = "1.0.0"
   //resource_group_name  = azurerm_resource_group.rg.name
   //location             = azurerm_resource_group.rg.location
-  environment          = "Production"
-  storage_account_name = "fandsecurestorage377"
+  //environment          = "Production"
+  //storage_account_name = "fandsecurestorage377"
 }
